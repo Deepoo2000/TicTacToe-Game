@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoc.GameOver">
+   <children>
+      <Label fx:id="winner" layoutX="83.0" layoutY="60.0" prefHeight="70.0" prefWidth="62.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="14.0" text="GameOver!!!!!!!!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="78.0" text="is the Winner.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
